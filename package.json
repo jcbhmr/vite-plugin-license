@@ -5,20 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
-  "scripts": {
-    "lint": "gulp lint",
-    "clean": "gulp clean",
-    "build": "gulp build",
-    "watch": "gulp watch",
-    "test": "gulp test",
-    "tdd": "gulp tdd",
-    "changelog": "gulp changelog",
-    "prepare": "npm run build",
-    "release": "gulp release:minor",
-    "release:patch": "gulp release:patch",
-    "release:minor": "gulp release:minor",
-    "release:major": "gulp release:major"
-  },
+  "scripts": {},
   "keywords": [
     "rollup",
     "rollup-plugin"
@@ -39,11 +26,13 @@
   "dependencies": {
     "commenting": "~1.1.0",
     "glob": "~7.2.0",
+    "licensee": "^10.0.0",
     "lodash": "~4.17.21",
     "magic-string": "~0.30.0",
     "mkdirp": "~3.0.0",
     "moment": "~2.29.3",
     "package-name-regex": "~2.0.6",
+    "read-package-json-fast": "^3.0.2",
     "spdx-expression-validate": "~2.0.0",
     "spdx-satisfies": "~5.0.1"
   },
@@ -74,7 +63,8 @@
     "rollup-plugin-prettier": "4.1.1",
     "rollup-plugin-strip-banner": "3.1.0",
     "tmp": "0.2.1",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "vite": "^4.5.0"
   },
   "engines": {
     "node": ">=14.0.0"
