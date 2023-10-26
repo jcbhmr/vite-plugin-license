@@ -35,7 +35,7 @@ dist/
 └── index.html
 ```
 
-<sup>*: Has `/*!` license header</sup>
+<sup>* Has `/*!` license header</sup>
 
 </table>
 <table align=center><td>
