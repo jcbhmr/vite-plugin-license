@@ -12,6 +12,8 @@ npm install -D vite-plugin-license
 
 ## Usage
 
+<table align=center><td>
+
 ```js
 // vite.config.js
 import { defineConfig } from "vite";
@@ -23,6 +25,8 @@ export default defineConfig({
 })
 ```
 
+<td>
+
 ```
 dist/
 ├── assets/
@@ -30,6 +34,9 @@ dist/
 │   └── index-a1b2c3.js   (with license header)
 └── index.html
 ```
+
+</table>
+<table align=center><td>
 
 ```js
 // vite.config.js
@@ -49,8 +56,12 @@ export default defineConfig({
 })
 ```
 
+<td>
+
 ```
 dist/
 ├── index.js
 └── THIRD_PARTY_LICENSES.txt
 ```
+
+</table>
