@@ -30,10 +30,12 @@ export default defineConfig({
 ```
 dist/
 ├── assets/
-│   ├── index-d4e5f6.css  (with license header)
-│   └── index-a1b2c3.js   (with license header)
+│   ├── index-d4e5f6.css*
+│   └── index-a1b2c3.js*
 └── index.html
 ```
+
+<sup>*: Has `/*!` license header</sup>
 
 </table>
 <table align=center><td>
