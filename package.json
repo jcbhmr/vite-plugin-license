@@ -1,72 +1,16 @@
 {
-  "name": "rollup-plugin-license",
-  "version": "3.2.0",
-  "description": "Rollup plugin to add license banner to the final bundle and output third party licenses",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "typings": "dist/index.d.ts",
-  "scripts": {},
-  "keywords": [
-    "rollup",
-    "rollup-plugin"
-  ],
-  "author": "Mickael Jeanroy <mickael.jeanroy@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/mjeanroy/rollup-plugin-license",
-  "bugs": {
-    "url": "https://github.com/mjeanroy/rollup-plugin-license/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mjeanroy/rollup-plugin-license"
-  },
+  "type": "module",
+  "name": "generate-bundle-license",
+  "version": "1.0.0",
   "peerDependencies": {
-    "rollup": "^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0"
-  },
-  "dependencies": {
-    "commenting": "~1.1.0",
-    "glob": "~7.2.0",
-    "licensee": "^10.0.0",
-    "lodash": "~4.17.21",
-    "magic-string": "~0.30.0",
-    "mkdirp": "~3.0.0",
-    "moment": "~2.29.3",
-    "package-name-regex": "~2.0.6",
-    "read-package-json-fast": "^3.0.2",
-    "spdx-expression-validate": "~2.0.0",
-    "spdx-satisfies": "~5.0.1"
+    "vite": "^4.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.23.2",
-    "@babel/preset-env": "7.23.2",
-    "@babel/register": "7.22.15",
-    "@rollup/plugin-babel": "6.0.4",
-    "@rollup/plugin-commonjs": "25.0.7",
-    "@rollup/plugin-node-resolve": "15.2.3",
-    "@rollup/plugin-virtual": "3.0.2",
-    "@typescript-eslint/eslint-plugin": "6.9.0",
-    "@typescript-eslint/parser": "6.8.0",
-    "babel-plugin-add-module-exports": "1.0.4",
-    "eslint": "8.52.0",
-    "eslint-config-google": "0.14.0",
-    "fancy-log": "2.0.0",
-    "fs-extra": "11.1.1",
-    "globalthis": "1.0.3",
-    "gulp": "4.0.2",
-    "gulp-conventional-changelog": "4.0.0",
-    "gulp-jasmine": "4.0.0",
-    "jasmine": "3.10.0",
-    "jasmine-core": "3.10.1",
-    "prettier": "3.0.3",
-    "rimraf": "5.0.5",
-    "rollup": "4.1.4",
-    "rollup-plugin-prettier": "4.1.1",
-    "rollup-plugin-strip-banner": "3.1.0",
-    "tmp": "0.2.1",
-    "typescript": "5.2.2",
-    "vite": "^4.5.0"
+    "@types/node": "^20.8.9"
   },
-  "engines": {
-    "node": ">=14.0.0"
+  "dependencies": {
+    "execa": "^8.0.1",
+    "license-checker": "^25.0.1",
+    "read-package-json-fast": "^3.0.2"
   }
 }
